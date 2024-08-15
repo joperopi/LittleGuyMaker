@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    background-color: lightgray;
+}
+
+#footer {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
