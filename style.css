@@ -24,6 +24,12 @@ body {
     padding: 20px;
 }
 
+.logo {
+    width: 100%;
+    max-width: 400px;
+    min-width: 0px;
+}
+
 #container {
     background-color: rgb(247, 247, 247);
     display: flex;
@@ -68,6 +74,14 @@ body {
 
 .guy {
     z-index: 1;
+}
+
+.menu a {
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid black;
 }
 
 #footer {
