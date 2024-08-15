@@ -6,6 +6,10 @@
     margin: 0px;
 }
 
+a {
+    color: black;
+}
+
 body {
     display: flex;
     flex-direction: column;
