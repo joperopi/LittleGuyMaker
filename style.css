@@ -36,10 +36,36 @@ body {
     max-width: 800px;
 }
 
-.guy {
+.guyimg {
+    position: fixed;
     display: flex;
     width: 800px;
     flex: 0 1 1000px;
+    z-index: 1;
+}
+
+.hat {
+    z-index: 6;
+}
+
+.face {
+    z-index: 5;
+}
+
+.inner {
+    z-index: 4;
+}
+
+.lower {
+    z-index: 3;
+}
+
+.shoe {
+    z-index: 2;    
+}
+
+.guy {
+    z-index: 1;
 }
 
 #footer {
