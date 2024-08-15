@@ -33,7 +33,8 @@ body {
 #container {
     background-color: rgb(247, 247, 247);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 700px;
 }
 
@@ -41,6 +42,7 @@ body {
     display: flex;
     flex: auto;
     max-width: 700px;
+    width: 100%;
 }
 
 .guyimg {
@@ -76,7 +78,7 @@ body {
     z-index: 1;
 }
 
-.menu a {
+.menu button {
     width: 30px;
     height: 30px;
     border-top-left-radius: 5px;
