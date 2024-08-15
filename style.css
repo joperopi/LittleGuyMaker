@@ -13,7 +13,7 @@ a {
 body {
     display: flex;
     flex-direction: column;
-    
+    justify-content: space-between;
     font-family: "Comic Neue", cursive;
 }
 
@@ -28,6 +28,7 @@ body {
     background-color: rgb(247, 247, 247);
     display: flex;
     justify-content: center;
+    height: 800px;
 }
 
 #chamber {
@@ -37,15 +38,14 @@ body {
 }
 
 .guyimg {
-    position: fixed;
+    position: absolute;
     display: flex;
     width: 800px;
     flex: 0 1 1000px;
-    z-index: 1;
 }
 
 .hat {
-    z-index: 6;
+    z-index: 6; 
 }
 
 .face {
