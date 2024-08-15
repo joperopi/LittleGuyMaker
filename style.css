@@ -24,6 +24,20 @@ body {
 
 #container {
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+#chamber {
+    display: flex;
+    flex: auto;
+    max-width: 800px;
+}
+
+.guy {
+    display: flex;
+    width: 800px;
+    flex: 0 1 1000px;
 }
 
 #footer {
