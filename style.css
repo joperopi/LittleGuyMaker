@@ -91,6 +91,8 @@ body {
 #menu {
     display: flex;
     gap: 1px;
+    width: 320px;
+    justify-content: space-evenly;
 }
 
 #menu button {
