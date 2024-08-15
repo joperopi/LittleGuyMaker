@@ -28,19 +28,21 @@ body {
     background-color: rgb(247, 247, 247);
     display: flex;
     justify-content: center;
-    height: 800px;
+    height: 700px;
 }
 
 #chamber {
     display: flex;
     flex: auto;
-    max-width: 800px;
+    max-width: 700px;
 }
 
 .guyimg {
     position: absolute;
     display: flex;
-    width: 800px;
+    width: 100%;
+    max-width: 700px;
+    min-width: 0;
     flex: 0 1 1000px;
 }
 
