@@ -41,6 +41,7 @@ body {
 }
 
 #chamber {
+    position: relative;
     display: flex;
     flex: auto;
     max-width: 700px;
