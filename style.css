@@ -54,10 +54,23 @@ body {
     z-index: 10;
     align-self: flex-end;
     align-items: flex-start;
-    background-color: lightgreen;
+    background-color: hsla(0, 0%, 80%, 0.486);
     display: flex;
+    gap: 5px;
     width: 320px;
     height: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.hatPopup,
+.facePopup,
+.topPopup,
+.bottomPopup,
+.shoePopup {
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .hide {
