@@ -52,4 +52,32 @@ popupHat.addEventListener("click", function(e) {
     itemNum = itemNum.substring(itemNum.length -1);
     guyHat.style.content = `url("img/LGMHat${itemNum}.png")`
     popupHat.classList.toggle("hide");
-})
+});
+
+popupFace.addEventListener("click", function(e) {
+    let itemNum = e.target.classList[1];
+    itemNum = itemNum.substring(itemNum.length -1);
+    guyFace.style.content = `url("img/LGMFace${itemNum}.png")`
+    popupFace.classList.toggle("hide");
+});
+
+popupTop.addEventListener("click", function(e) {
+    let itemNum = e.target.classList[1];
+    itemNum = itemNum.substring(itemNum.length -1);
+    guyTop.style.content = `url("img/LGMTop${itemNum}.png")`
+    popupTop.classList.toggle("hide");
+});
+
+popupBottom.addEventListener("click", function(e) {
+    let itemNum = e.target.classList[1];
+    itemNum = itemNum.substring(itemNum.length -1);
+    guyBottom.style.content = `url("img/LGMBottom${itemNum}.png")`
+    popupBottom.classList.toggle("hide");
+});
+
+popupShoe.addEventListener("click", function(e) {
+    let itemNum = e.target.classList[1];
+    itemNum = itemNum.substring(itemNum.length -1);
+    guyShoe.style.content = `url("img/LGMShoe${itemNum}.png")`
+    popupShoe.classList.toggle("hide");
+});
