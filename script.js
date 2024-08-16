@@ -48,36 +48,37 @@ btnShoe.addEventListener("click", function(e) {
 });
 
 popupHat.addEventListener("click", function(e) {
-    let itemNum = e.target.classList[1];
-    itemNum = itemNum.substring(itemNum.length -1);
+    let itemNum = getNumber(e);
     guyHat.style.content = `url("img/LGMHat${itemNum}.png")`
     popupHat.classList.toggle("hide");
 });
 
 popupFace.addEventListener("click", function(e) {
-    let itemNum = e.target.classList[1];
-    itemNum = itemNum.substring(itemNum.length -1);
+    let itemNum = getNumber(e);
     guyFace.style.content = `url("img/LGMFace${itemNum}.png")`
     popupFace.classList.toggle("hide");
 });
 
 popupTop.addEventListener("click", function(e) {
-    let itemNum = e.target.classList[1];
-    itemNum = itemNum.substring(itemNum.length -1);
+    let itemNum = getNumber(e);
     guyTop.style.content = `url("img/LGMTop${itemNum}.png")`
     popupTop.classList.toggle("hide");
 });
 
 popupBottom.addEventListener("click", function(e) {
-    let itemNum = e.target.classList[1];
-    itemNum = itemNum.substring(itemNum.length -1);
+    let itemNum = getNumber(e);
     guyBottom.style.content = `url("img/LGMBottom${itemNum}.png")`
     popupBottom.classList.toggle("hide");
 });
 
 popupShoe.addEventListener("click", function(e) {
-    let itemNum = e.target.classList[1];
-    itemNum = itemNum.substring(itemNum.length -1);
+    let itemNum = getNumber(e);
     guyShoe.style.content = `url("img/LGMShoe${itemNum}.png")`
     popupShoe.classList.toggle("hide");
 });
+
+function getNumber(e) {
+    let itemNum = e.target.classList[1];
+    itemNum = itemNum.replace(/[^0-9]/g,"");
+    return itemNum;
+}
