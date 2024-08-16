@@ -14,6 +14,13 @@ const popupBottom = document.getElementById("bottomPopup");
 const popupShoe = document.getElementById("shoePopup");
 const popupPrint = document.getElementById("printPopup");
 
+// GUY
+const guyHat = document.getElementById("hat");
+const guyFace = document.getElementById("face");
+const guyTop = document.getElementById("top");
+const guyBottom = document.getElementById("bottom");
+const guyShoe = document.getElementById("shoe");
+
 
 btnHat.addEventListener("click", function(e) {
     popupHat.classList.toggle("hide");
@@ -39,3 +46,10 @@ btnShoe.addEventListener("click", function(e) {
     popupShoe.classList.toggle("hide");
     console.log("click");
 });
+
+popupHat.addEventListener("click", function(e) {
+    let itemNum = e.target.classList[1];
+    itemNum = itemNum.substring(itemNum.length -1);
+    guyHat.style.content = `url("img/LGMHat${itemNum}.png")`
+    popupHat.classList.toggle("hide");
+})
