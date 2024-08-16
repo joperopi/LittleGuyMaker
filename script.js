@@ -7,9 +7,15 @@ const btnShoe = document.getElementById("shoemenu");
 const btnPrint = document.getElementById("printmenu");
 
 // POPUP WINDOWS
-
+const popupHat = document.getElementById("hatPopup");
+const popupFace = document.getElementById("facePopup");
+const popupTop = document.getElementById("topPopup");
+const popupBottom = document.getElementById("bottomPopup");
+const popupShoe = document.getElementById("shoePopup");
+const popupPrint = document.getElementById("printPopup");
 
 
 btnHat.addEventListener("click", function(e) {
-    alert("test");
+    popupHat.classList.toggle("hide");
+    console.log("click");
 });
