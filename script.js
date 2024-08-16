@@ -19,3 +19,23 @@ btnHat.addEventListener("click", function(e) {
     popupHat.classList.toggle("hide");
     console.log("click");
 });
+
+btnFace.addEventListener("click", function(e) {
+    popupFace.classList.toggle("hide");
+    console.log("click");
+});
+
+btnTop.addEventListener("click", function(e) {
+    popupTop.classList.toggle("hide");
+    console.log("click");
+});
+
+btnBottom.addEventListener("click", function(e) {
+    popupBottom.classList.toggle("hide");
+    console.log("click");
+});
+
+btnShoe.addEventListener("click", function(e) {
+    popupShoe.classList.toggle("hide");
+    console.log("click");
+});
