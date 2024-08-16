@@ -71,6 +71,52 @@ body {
     border: 2px solid white;
     border-radius: 50%;
     background-color: white;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.hatImg {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    left: -42px;
+}
+
+.mask {
+    top: -10px;
+}
+
+.faceImg {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    left: -90px;
+    top: -28px;
+}
+
+.topImg {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: -25px;
+    top: -27px;
+}
+
+.bottomImg {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: -25px;
+    top: -50px;
+}
+
+.shoeImg {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    left: -50px;
+    top: -105px;
 }
 
 .hide {
