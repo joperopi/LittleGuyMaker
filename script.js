@@ -19,30 +19,51 @@ const guyTop = document.getElementById("top");
 const guyBottom = document.getElementById("bottom");
 const guyShoe = document.getElementById("shoe");
 
+let lastOpened = popupHat;
 
 btnHat.addEventListener("click", function(e) {
     popupHat.classList.toggle("hide");
     console.log("click");
+    if (lastOpened != popupHat) {
+        lastOpened.classList.add("hide");
+    }
+    lastOpened = popupHat;
 });
 
 btnFace.addEventListener("click", function(e) {
     popupFace.classList.toggle("hide");
     console.log("click");
+    if (lastOpened != popupFace) {
+        lastOpened.classList.add("hide");
+    }
+    lastOpened = popupFace;
 });
 
 btnTop.addEventListener("click", function(e) {
     popupTop.classList.toggle("hide");
     console.log("click");
+    if (lastOpened != popupTop) {
+        lastOpened.classList.add("hide");
+    }
+    lastOpened = popupTop;
 });
 
 btnBottom.addEventListener("click", function(e) {
     popupBottom.classList.toggle("hide");
     console.log("click");
+    if (lastOpened != popupBottom) {
+        lastOpened.classList.add("hide");
+    }
+    lastOpened = popupBottom;
 });
 
 btnShoe.addEventListener("click", function(e) {
     popupShoe.classList.toggle("hide");
     console.log("click");
+    if (lastOpened != popupShoe) {
+        lastOpened.classList.add("hide");
+    }
+    lastOpened = popupShoe;
 });
 
 popupHat.addEventListener("click", function(e) {
