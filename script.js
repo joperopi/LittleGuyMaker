@@ -23,7 +23,6 @@ let lastOpened = popupHat;
 
 btnHat.addEventListener("click", function(e) {
     popupHat.classList.toggle("hide");
-    console.log("click");
     if (lastOpened != popupHat) {
         lastOpened.classList.add("hide");
     }
@@ -32,7 +31,6 @@ btnHat.addEventListener("click", function(e) {
 
 btnFace.addEventListener("click", function(e) {
     popupFace.classList.toggle("hide");
-    console.log("click");
     if (lastOpened != popupFace) {
         lastOpened.classList.add("hide");
     }
@@ -41,7 +39,6 @@ btnFace.addEventListener("click", function(e) {
 
 btnTop.addEventListener("click", function(e) {
     popupTop.classList.toggle("hide");
-    console.log("click");
     if (lastOpened != popupTop) {
         lastOpened.classList.add("hide");
     }
@@ -50,7 +47,6 @@ btnTop.addEventListener("click", function(e) {
 
 btnBottom.addEventListener("click", function(e) {
     popupBottom.classList.toggle("hide");
-    console.log("click");
     if (lastOpened != popupBottom) {
         lastOpened.classList.add("hide");
     }
@@ -59,7 +55,6 @@ btnBottom.addEventListener("click", function(e) {
 
 btnShoe.addEventListener("click", function(e) {
     popupShoe.classList.toggle("hide");
-    console.log("click");
     if (lastOpened != popupShoe) {
         lastOpened.classList.add("hide");
     }
